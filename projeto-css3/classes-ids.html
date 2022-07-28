@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internal CSS</title>
+    <title>Classes e IDs</title>
 
     <style>
         p {
@@ -15,24 +15,55 @@
         h1 {
             color: blue;
         }
+
+        .azul {
+            color: blue;
+        }
+
+        #cabecalho {
+            background: green;
+        }
     </style>
+
+
 </head>
 
 <body>
-    <h1>Estilo CSS (cascading style sheets)</h1>
+
+    <div>
+        <div id="cabecalho">
+            <img src="../images/logo.png">
+            <ul>
+                <li>Home</li>
+                <li>Quem Somos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+
+        <div id="conteudo-principal">
+            <div class="coluna">Coluna 1</div>
+            <div class="coluna">Coluna 2</div>
+            <div class="coluna">Coluna 3</div>
+        </div>
+    </div>
+
+
+    <h1 class="azul">Estilo CSS (cascading style sheets)</h1>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, deserunt reiciendis nihil similique
         culpa esse nesciunt eum dicta cupiditate sapiente, itaque odit non. Dolorem soluta ipsum sunt minus officia
         perferendis?
     </p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi inventore eveniet eos odit, temporibus
+    <p class="azul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi inventore eveniet eos odit,
+        temporibus
         soluta hic, laudantium suscipit, officia sequi sed qui vitae aliquid adipisci? Exercitationem repellendus maxime
         amet!</p>
 
     <h1>Formatações</h1>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, deserunt reiciendis nihil similique
+    <p class="azul">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, deserunt reiciendis nihil
+        similique
         culpa esse nesciunt eum dicta cupiditate sapiente, itaque odit non. Dolorem soluta ipsum sunt minus officia
         perferendis?
     </p>
