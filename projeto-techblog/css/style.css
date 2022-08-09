@@ -1,0 +1,61 @@
+/* Limpando formatações padrão */
+
+* { 
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e5e5e5;
+}
+
+/*
+**** Layout ****
+*/
+
+#cabecalho {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+/*
+**** Formatações menu ****
+*/
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background: #fff;
+    color: #f7b600;
+}
+
+a
+
+/*
+**** Formatações gerais ****
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
