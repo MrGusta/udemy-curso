@@ -1,0 +1,39 @@
+/***************************
+Barra de navegação com abas*/
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    background: url('./images/aba-direita.png') no-repeat top right;
+}
+
+li a {
+    display: block;
+    line-height: 3em;
+    text-decoration: none;
+    padding: 0 2em;
+    background: url('./images/aba-esquerda.png') no-repeat top left;
+    color: #FFF;
+}
+
+ul a:hover {
+    color: #894A1F;
+}
+
+ul #atual {
+    background: url('./images/aba-direita-atual.png') no-repeat top right;
+}
+
+ul #atual a {
+    background: url('./images/aba-esquerda-atual.png') no-repeat top left;
+}
