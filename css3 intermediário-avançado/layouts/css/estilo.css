@@ -1,34 +1,62 @@
-
+/*********
+Layouts */
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #f2f2f2;
 }
 
 #container {
-    width: 720px;
+    width: 960px; /*85% = 720px*/
     margin: 0 auto;
     background: #FFF;
+    min-width: 720px;
+    max-width: 1280px;
+    background: #FFF url('/images/coluna.png') repeat-y left top;
 }
 
 #marca {
-    height: 100px;
-    line-height: 100px;
-    background: #9E9E9E;
+    height: 200px;
+    line-height: 200px;
+    background: #225992 url('../images/cabecalho2.jpg') no-repeat center;
     text-align: center;
+    
 }
 
+/*
+#imagem {
+    width: 90%;
+    overflow: hidden;
+    border: 1px solid red;
+}*/
+
 #conteudo {
-    width: 520px;
+    width: 75%; /* 520px de 700px = 74.28 = 75%*/
     float: right;
 }
 
+#navegacao {
+    width: 23%; /* 180px de 700px = 25.71 = 25% // 23*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1;*/
+}
+
 #conteudo-principal {
-    width: 320px;
+
+    width: 63%; /* 320px de 500px = 64% // 63%*/
     float: left;
 }
 
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+
+}
+
 #conteudo-secundario {
-    width: 180px;
+    width: 34%; /* 180px de 500px = 36% // 32%*/
     float: right;
     background: #d1d1d1;
 }
@@ -41,14 +69,6 @@ body {
     padding-right: 20px;
 }
 
-#navegacao {
-    width: 180px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #d1d1d1;
-}
-
 #navegacao ul {
     list-style-type: none;
 }
@@ -56,8 +76,6 @@ body {
 #navegacao li a {
     text-decoration: none;
 }
-
-
 
 #rodape {
     clear: both;
