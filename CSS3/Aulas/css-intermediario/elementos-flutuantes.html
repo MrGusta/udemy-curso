@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+
+    <style>
+        #principal {
+            border: 5px solid red;
+            background: green;
+        }
+
+        .conteudo {
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+
+            margin: 10px;
+            float: right;
+        }
+
+        .conteudo-zero {
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+
+            margin: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="principal">
+        <div class="conteudo">Conteúdo 1</div>
+        <div class="conteudo">Conteúdo 2</div>
+        <div class="conteudo">Conteúdo 3</div>
+        <div class="conteudo">Conteúdo 4</div>
+
+        <!-- Ao usar float nos conteúdos é preciso criar uma div "fantasma" para limpar o fluxo de fundo
+            podendo assim aplicar um background na div principal
+
+        <div class="clear"></div> 
+    
+        Neste caso, podemos utilizar a class clear para limpar o fluxo do float dos conteúdos em um  paragráfo de texto
+        -->
+
+        <p class="clear">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia odit sequi quo veritatis unde, illo expedita modi aperiam perferendis quam, ipsa illum, excepturi temporibus cupiditate praesentium sed beatae. Error, nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias atque, repellendus eos temporibus harum consequuntur, maxime sed et dignissimos totam cum, velit repellat voluptas sint pariatur quas eveniet doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ad incidunt odio voluptates iure consequatur quidem nostrum animi veniam repellat? Nihil, illum cumque. Autem inventore facere dolores blanditiis dicta laudantium!</p>
+    </div>
+    
+
+</body>
+</html>
