@@ -10,11 +10,135 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Elementos flutuantes</title>
+    <title>Bootstrap - Elementos flutuantes</title>
 </head>
-<body>
 
-    
+<body style="margin-bottom: 200px; padding: 16px;">
+
+    <!-- Elementos flutuantes -->
+    <div style="border: 1px solid red;" class="clearfix">
+        <div class="bg-success float-left">Float Left</div>
+        <div class="bg-warning float-right">Float Right</div>
+    </div>
+
+    <!-- Posicionamento fixo - top e bottom -->
+    <h1 class="fixed-bottom bg-success">Título do conteúdo fixo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet neque tempore labore officiis est ducimus
+        voluptas odit, cupiditate debitis commodi adipisci ratione voluptate minima ipsum asperiores fugiat dolore
+        libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio natus laboriosam quam
+        eos unde laborum maxime minus, corporis, dolor ab. Nam iure distinctio eos possimus ipsam quibusdam nemo. In?
+    </p>
+
+    <!-- 
+        Float responsivo - float-<tela>-<direcao>
+            Tipos de telas:
+            SM = Small - 576px
+            MD = Medium - 768px
+            LG = Large - 992px
+            XL = Extra Large - 1200px
+
+            Tipos de alinhamentos:
+            LEFT = Esquerda
+            RIGHT = Direta
+     -->
+
+    <div class="float-sm-left d-inline-block bg-success">tela &gt;= 576px *</div>
+    <!-- Small -->
+    <div class="float-md-left d-inline-block bg-warning">tela &gt;= 768px *</div>
+    <!-- Medium -->
+    <div class="float-lg-left d-inline-block bg-success">tela &gt;= 992px *</div>
+    <!-- Large -->
+    <div class="float-xl-left d-inline-block bg-warning">tela &gt;= 1200px *</div>
+    <!-- Extra Large -->
+
+    <br><br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+    <!-- Colar no topo (sticky) -->
+    <ul class="list-inline bg-warning sticky-top">
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+    <h1>Titulo do conteudo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+        placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+        fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+        molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -27,4 +151,11 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
-</html>
+
+</html><h1>Titulo do conteudo</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel aliquid nobis quam quo inventore ex nisi
+    placeat sequi dignissimos itaque, quisquam illum dolores error iusto rerum ut ducimus. Molestiae! Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Ullam facere iusto a voluptatem obcaecati, expedita iure ducimus
+    fugit saepe aperiam nostrum nihil itaque, quibusdam pariatur nam suscipit. Tempora, necessitatibus cupiditate!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa repellat qui minima totam vel iusto enim
+    molestiae accusantium ad doloribus perferendis nostrum, animi vitae minus fugit ullam reprehenderit culpa.</p>
