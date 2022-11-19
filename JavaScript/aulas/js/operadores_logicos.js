@@ -36,9 +36,16 @@ var faltas = prompt('Digite a quantidade de faltas:')
 var media = 7
 var faltas_maximas = 15
 
-if (nota >= media && faltas <= faltas_maximas) {
+/*if (nota >= media && faltas <= faltas_maximas) {
     document.write('<p style="color: green;">Aprovado!</p>');
+    //lógica
 } else (
     document.write('<p style="color: red;">Reprovado!</p>')
+    //lógica
+)*/
 
-)
+
+// operador ternário
+// var resultado = <condicao> ? <verdadeiro> : <falso>
+var resultado = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado'
+document.write(resultado)
